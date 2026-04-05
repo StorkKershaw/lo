@@ -1,0 +1,22 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "editor.formatOnSave": true,
+
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "files.readonlyInclude": {
+    "**/*.gen.ts": true
+  },
+  "search.exclude": {
+    "**/*.gen.ts": true
+  },
+
+  "[javascript][javascriptreact][typescript][typescriptreact][html][css][scss][json][jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.tabSize": 2
+  }
+}
